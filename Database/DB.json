@@ -1,0 +1,102 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/john.jpg"
+      },
+      "image": "src/assets/sunset.jpg",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! 📸"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "jane_smith",
+        "profile_pic": "src/assets/jane.jpg"
+      },
+      "image": "src/assets/food.jpg",
+      "caption": "Yummy pasta dinner 🍝 #Foodie",
+      "likes": 89,
+      "comments": [
+        {
+          "user": "chef_mario",
+          "comment": "Looks delicious!"
+        }
+      ],
+      "timestamp": "2025-02-12T10:15:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "travel_guru",
+        "profile_pic": "src/assets/travel_guru.jpg"
+      },
+      "image": "src/assets/mountain.jpg",
+      "caption": "Hiking adventures ⛰️ #Wanderlust",
+      "likes": 203,
+      "comments": [
+        {
+          "user": "explorer_x",
+          "comment": "I need to go there!"
+        }
+      ],
+      "timestamp": "2025-02-13T08:00:00Z"
+    },
+    {
+      "id": 4,
+      "user": {
+        "id": 104,
+        "username": "cat_lover",
+        "profile_pic": "src/assets/catlover.jpg"
+      },
+      "image": "src/assets/cat.jpg",
+      "caption": "My fluffy baby 🐱💛 #CatLife",
+      "likes": 156,
+      "comments": [
+        {
+          "user": "pet_world",
+          "comment": "So cute!!"
+        },
+        {
+          "user": "doggo_love",
+          "comment": "Adorable kitty 😻"
+        }
+      ],
+      "timestamp": "2025-02-14T16:45:00Z"
+    },
+    {
+      "id": 5,
+      "user": {
+        "id": 105,
+        "username": "tech_savvy",
+        "profile_pic": "src/assets/techsavvy.jpg"
+      },
+      "image": "src/assets/setup.jpg",
+      "caption": "New desk setup 💻🔥 #Productivity",
+      "likes": 178,
+      "comments": [
+        {
+          "user": "code_master",
+          "comment": "That monitor is sick!"
+        }
+      ],
+      "timestamp": "2025-02-15T12:00:00Z"
+    }
+  ]
+}
