@@ -2,15 +2,16 @@ import React, { useEffect, useState } from 'react'
 
 
 
-const useFetch = ()=>{
+const useFetch = (url)=>{
     const [Data,setData] = useState([]);
+
     useEffect(()=>{
         setTimeout(() =>{
-            fetch('http://localhost:5000/posts')
+            fetch(url)
                 .then(Response => Response.json())
                 .then(data => setData(data))
                 .catch((err) =>{
-                    console.log(err +" Occured");
+                    console.log(err);
                 })
         },1000)
     },[]);

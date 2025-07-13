@@ -9,7 +9,6 @@ function Centerbar() {
           <div className="h-20">
               <Stories />
           </div>
-          <hr />
           <div>
               <Posts />
           </div>

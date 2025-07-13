@@ -1,4 +1,47 @@
 {
+  "stories": [
+    {
+      "id": 1,
+      "username": "Your Story",
+      "image": "/src/assets/icons/Profile.jpeg",
+      "isOwnStory": true
+    },
+    {
+      "id": 2,
+      "username": "food_lover",
+      "image": "/Database/profile/food.jpg"
+    },
+    {
+      "id": 3,
+      "username": "travel_enthusiast",
+      "image": "/Database/profile/traveller.jpg"
+    },
+    {
+      "id": 4,
+      "username": "sunset_chaser",
+      "image": "/Database/profile/sunset.jpg"
+    },
+    {
+      "id": 5,
+      "username": "desk_setup",
+      "image": "/Database/profile/new_desk.jpg"
+    },
+    {
+      "id": 6,
+      "username": "food_lover2",
+      "image": "/Database/profile/food.jpg"
+    },
+    {
+      "id": 7,
+      "username": "travel_enthusiast2",
+      "image": "/Database/profile/traveller.jpg"
+    },
+    {
+      "id": 8,
+      "username": "sunset_chaser2",
+      "image": "/Database/profile/sunset.jpg"
+    }
+  ],
   "posts": [
     {
       "id": 1,

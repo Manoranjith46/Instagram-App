@@ -4,48 +4,46 @@ function Navbar() {
   return (
     <>
         <div className="m-3" >
-            <img className="mb-2" src="/public/Sidebar.png" alt="" width="10%"/>
-            <div className="d-flex flex-column" id="gap">
-                <div>
-                    <img className="imgs" src="/src/assets/icons/Home.png" alt="" width="2%" />
+            <img className="mb-2" src="/public/Sidebar.png" alt="" width="100%"/>
+            <div className="d-flex flex-column">
+                <div className="imgsdiv">
+                    <img className="imgs" src="/src/assets/icons/Home.png" />
                     Home
                 </div>
-                <div>
-                    <img className="imgs" src="/src/assets/icons/Search.png" alt="" width="2%" />
+                <div className="imgsdiv">
+                    <img className="imgs" src="/src/assets/icons/Search.png"/>
                     Search
                 </div>
-                <div>
-                    <img className="imgs" src="/src/assets/icons/Explore.png" alt="" width="2%" />
+                <div className="imgsdiv">
+                    <img className="imgs" src="/src/assets/icons/Explore.png"/>
                     Explore
                 </div>
-                <div>
-                    <img className="imgs" src="/src/assets/icons/Reels.png" alt="" width="2%" />
+                <div className="imgsdiv">
+                    <img className="imgs" src="/src/assets/icons/Reels.png"/>
                     Reels
                 </div>
-                <div>
-                    <img className="imgs" src="/src/assets/icons/Messages.png" alt="" width="2%" />
+                <div className="imgsdiv">
+                    <img className="imgs" src="/src/assets/icons/Messages.png"/>
                     Messages
                 </div>
-                <div>
-                    <img className="imgs" src="/src/assets/icons/Notifications.png" alt="" width="2%" />
+                <div className="imgsdiv">
+                    <img className="imgs" src="/src/assets/icons/Notifications.png"/>
                     Notifications
                 </div>
-                <div>
-                    <img className="imgs" src="/src/assets/icons/Create.png" alt="" width="2%" />
+                <div className="imgsdiv">
+                    <img className="imgs" src="/src/assets/icons/Create.png"/>
                     Create
                 </div>
-                <div>
-                    <img className="imgs" src="/src/assets/icons/Home.png" alt="" width="2%" />
+                <div className="imgsdiv">
+                    <img className="imgs" src="/src/assets/icons/Profile.jpeg"/>
                     Profile
                 </div>
-            </div>
-            <div className="position-fixed bottom-0 d-flex flex-column gap-3 mb-1">
-                <div>
-                    <img className="imgs" src="/src/assets/icons/Threads.png" alt="" width="3.5%" />
+                <div className="imgsdiv">
+                    <img className="imgs" src="/src/assets/icons/Threads.png"/>
                     Threads
                 </div>
-                <div>
-                    <img className="imgs" src="/src/assets/icons/More.png" alt="" width="4%" />
+                <div className="imgsdiv">
+                    <img className="imgs" src="/src/assets/icons/More.png"/>
                     More
                 </div>
             </div>
