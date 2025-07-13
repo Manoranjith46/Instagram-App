@@ -18,3 +18,12 @@
 .h-20{
     height: 12.5%;
 }
+.img{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+}
+.m-3{
+    position: fixed;
+    z-index: -10;
+}

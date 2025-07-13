@@ -5,12 +5,14 @@ import Posts from './post';
 function Centerbar() {
   return (
     <>
-        <div className="h-20">
-            <Stories />
-        </div>
-        <hr />
-        <div>
-            <Posts />
+        <div className="b-3">
+          <div className="h-20">
+              <Stories />
+          </div>
+          <hr />
+          <div>
+              <Posts />
+          </div>
         </div>
     </>
   )

@@ -5,7 +5,7 @@ import Centerbar from './Center/centerbar';
 function App() {
   return (
     <>
-        <div className="d-flex vh-100">
+        <div className="d-flex">
             <div className="w-20">
                 <Navbar />
             </div>

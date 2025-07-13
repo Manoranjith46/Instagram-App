@@ -5,9 +5,9 @@
       "user": {
         "id": 101,
         "username": "john_doe",
-        "profile_pic": "src/assets/john.jpg"
+        "profile_pic": "Database/profile/sunset.jpg"
       },
-      "image": "src/assets/sunset.jpg",
+      "image": "Database/post/sunset.jpg",
       "caption": "Beautiful sunset 🌅 #Nature",
       "likes": 120,
       "comments": [
@@ -27,9 +27,9 @@
       "user": {
         "id": 102,
         "username": "jane_smith",
-        "profile_pic": "src/assets/jane.jpg"
+        "profile_pic": "Database/profile/food.jpg"
       },
-      "image": "src/assets/food.jpg",
+      "image": "Database/post/food.jpg",
       "caption": "Yummy pasta dinner 🍝 #Foodie",
       "likes": 89,
       "comments": [
@@ -45,9 +45,9 @@
       "user": {
         "id": 103,
         "username": "travel_guru",
-        "profile_pic": "src/assets/travel_guru.jpg"
+        "profile_pic": "Database/profile/traveller.jpg"
       },
-      "image": "src/assets/mountain.jpg",
+      "image": "Database/post/traveller.jpg",
       "caption": "Hiking adventures ⛰️ #Wanderlust",
       "likes": 203,
       "comments": [
@@ -63,9 +63,9 @@
       "user": {
         "id": 104,
         "username": "cat_lover",
-        "profile_pic": "src/assets/catlover.jpg"
+        "profile_pic": "Database/profile/new_desk.jpg"
       },
-      "image": "src/assets/cat.jpg",
+      "image": "Database/post/cat.jpg",
       "caption": "My fluffy baby 🐱💛 #CatLife",
       "likes": 156,
       "comments": [
@@ -85,9 +85,9 @@
       "user": {
         "id": 105,
         "username": "tech_savvy",
-        "profile_pic": "src/assets/techsavvy.jpg"
+        "profile_pic": "Database/profile/new_desk.jpg"
       },
-      "image": "src/assets/setup.jpg",
+      "image": "Database/post/new_desk.jpg",
       "caption": "New desk setup 💻🔥 #Productivity",
       "likes": 178,
       "comments": [
@@ -97,6 +97,116 @@
         }
       ],
       "timestamp": "2025-02-15T12:00:00Z"
+    },
+    {
+      "id": 6,
+      "user": {
+        "id": 106,
+        "username": "nature_photographer",
+        "profile_pic": "Database/profile/sunset.jpg"
+      },
+      "image": "Database/post/sunset.jpg",
+      "caption": "Golden hour magic ✨ #Photography #Nature",
+      "likes": 245,
+      "comments": [
+        {
+          "user": "photo_enthusiast",
+          "comment": "Stunning composition! 📸"
+        },
+        {
+          "user": "landscape_lover",
+          "comment": "This is breathtaking!"
+        }
+      ],
+      "timestamp": "2025-02-16T18:20:00Z"
+    },
+    {
+      "id": 7,
+      "user": {
+        "id": 107,
+        "username": "foodie_explorer",
+        "profile_pic": "Database/profile/food.jpg"
+      },
+      "image": "Database/post/food.jpg",
+      "caption": "Homemade Italian feast 🇮🇹 #Cooking #Food",
+      "likes": 134,
+      "comments": [
+        {
+          "user": "chef_maria",
+          "comment": "Recipe please! 👨‍🍳"
+        },
+        {
+          "user": "pasta_lover",
+          "comment": "This looks incredible!"
+        }
+      ],
+      "timestamp": "2025-02-17T19:30:00Z"
+    },
+    {
+      "id": 8,
+      "user": {
+        "id": 108,
+        "username": "adventure_seeker",
+        "profile_pic": "Database/profile/traveller.jpg"
+      },
+      "image": "Database/post/traveller.jpg",
+      "caption": "Mountain trails and fresh air 🏔️ #Adventure #Travel",
+      "likes": 312,
+      "comments": [
+        {
+          "user": "hiking_buddy",
+          "comment": "Which trail is this?"
+        },
+        {
+          "user": "outdoor_life",
+          "comment": "Perfect weather for hiking!"
+        }
+      ],
+      "timestamp": "2025-02-18T09:15:00Z"
+    },
+    {
+      "id": 9,
+      "user": {
+        "id": 109,
+        "username": "pet_parent",
+        "profile_pic": "Database/profile/new_desk.jpg"
+      },
+      "image": "Database/post/cat.jpg",
+      "caption": "Cozy cat nap time 😴 #PetLife #Relaxation",
+      "likes": 189,
+      "comments": [
+        {
+          "user": "cat_whisperer",
+          "comment": "So peaceful! 😺"
+        },
+        {
+          "user": "feline_friend",
+          "comment": "What a beautiful cat!"
+        }
+      ],
+      "timestamp": "2025-02-19T14:45:00Z"
+    },
+    {
+      "id": 10,
+      "user": {
+        "id": 110,
+        "username": "workspace_designer",
+        "profile_pic": "Database/profile/new_desk.jpg"
+      },
+      "image": "Database/post/new_desk.jpg",
+      "caption": "Minimalist workspace goals 🖥️ #Workspace #Design",
+      "likes": 267,
+      "comments": [
+        {
+          "user": "interior_designer",
+          "comment": "Love the clean setup!"
+        },
+        {
+          "user": "productivity_guru",
+          "comment": "This is workspace goals!"
+        }
+      ],
+      "timestamp": "2025-02-20T11:00:00Z"
     }
   ]
 }
