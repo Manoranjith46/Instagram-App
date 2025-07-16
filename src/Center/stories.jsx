@@ -10,11 +10,7 @@ function Stories() {
         {stories.stories && stories.stories.map((story) => (
           <div key={story.id} className="story-item">
             <div className={`story-avatar ${story.isOwnStory ? 'own-story' : ''}`}>
-              <img 
-                src={story.image} 
-                alt={story.username} 
-                className="story-image"
-              />
+              <img src={story.image} alt={story.username} className="story-image"/>
               {story.isOwnStory && (
                 <div className="add-story-icon">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">

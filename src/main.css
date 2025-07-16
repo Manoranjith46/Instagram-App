@@ -49,7 +49,7 @@
 
 .stories-scroll {
     display: flex;
-    overflow-x: auto;
+    overflow-x :auto;
     gap: 16px;
     padding: 0 16px;
     scrollbar-width: none; /* Firefox */
@@ -57,7 +57,7 @@
 }
 
 .stories-scroll::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera */
+    display: flex; /* Chrome, Safari, Opera */
 }
 
 .story-item {
@@ -123,3 +123,4 @@
     transform: scale(1.05);
     transition: transform 0.2s ease;
 }
+
