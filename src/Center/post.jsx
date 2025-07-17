@@ -36,11 +36,10 @@ function Posts() {
   ))
 
 
-  if (!Data || Data.length === 0) {
+  if (!Data || Data.length == 0) {
     return(
-      <div className='d-flex justify-content-center'>
-        <div className="spinner-border text-primary d-flex justify-content-center">
-      </div>
+      <div className="d-flex justify-content-center m-5 p-5">
+        <h6 className="spinner-border text-primary m-5 p-3"/>
       </div>
     )
   }

@@ -1,6 +1,6 @@
 import React from 'react'
-import Stories from './stories';
 import Posts from './post';
+import Stories from './stories';
 
 function Centerbar() {
   return (

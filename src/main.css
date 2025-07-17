@@ -81,7 +81,7 @@
     justify-content: center;
 }
 
-.story-avatar.own-story {
+.story-avatar .own-story {
     background: #dbdbdb;
 }
 

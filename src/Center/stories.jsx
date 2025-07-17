@@ -2,15 +2,15 @@ import React from 'react'
 import useFetch from '../useFetch'
 
 function Stories() {
-  const stories = useFetch('/Database/DB.json');
+  const storydata = useFetch("http://localhost:5000/stories");
 
   return (
     <div className="stories-container">
       <div className="stories-scroll">
-        {stories.stories && stories.stories.map((story) => (
+        {storydata && storydata.map((story) => (
           <div key={story.id} className="story-item">
             <div className={`story-avatar ${story.isOwnStory ? 'own-story' : ''}`}>
-              <img src={story.image} alt={story.username} className="story-image"/>
+              <img src={story.profile} alt={story.username} className="story-image"/>
               {story.isOwnStory && (
                 <div className="add-story-icon">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
