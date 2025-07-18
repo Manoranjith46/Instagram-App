@@ -14,7 +14,7 @@ const useFetch = (url)=>{
                     console.log(err);
                 })
         },1000)
-    },[Data]);
+    },[url]);
 
 
 

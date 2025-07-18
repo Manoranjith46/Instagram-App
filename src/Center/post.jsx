@@ -6,7 +6,7 @@ function Posts() {
   
 //Map through all posts
   const posts = Data.map((post) => (
-    <div key={post.id} className='m-4 p-1'>
+    <div key={post.id} className='m-2 px-5 py-2'>
       <div className="d-flex align-items-center gap-1">
         <img className="img" src={post.user.profile_pic} alt="" />
         <p className="m-0 p-2">{post.user.username}</p>

@@ -1,14 +1,15 @@
 import React from 'react'
 import useFetch from '../useFetch'
+import { useNavigate } from 'react-router-dom';
 
 function Stories() {
-  const storydata = useFetch("http://localhost:5000/stories");
 
-  return (
-    <div className="stories-container">
-      <div className="stories-scroll">
-        {storydata && storydata.map((story) => (
-          <div key={story.id} className="story-item">
+  const navigate = useNavigate();
+  const storydata = useFetch("http://localhost:5000/stories");
+  let len = storydata.length;
+
+  let str = storydata && storydata.map((story) => (
+          <div key={story.id} className="story-item" onClick={() =>{navigate(`/stories/${story.id}/${len}`)}} >
             <div className={`story-avatar ${story.isOwnStory ? 'own-story' : ''}`}>
               <img src={story.profile} alt={story.username} className="story-image"/>
               {story.isOwnStory && (
@@ -21,7 +22,14 @@ function Stories() {
             </div>
             <p className="story-username">{story.username}</p>
           </div>
-        ))}
+        ))
+
+
+
+  return (
+    <div className="stories-container">
+      <div className="stories-scroll">
+        {str}
       </div>
     </div>
   )

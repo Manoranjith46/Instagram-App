@@ -5,7 +5,7 @@
       "username": "Your Story",
       "profile": "/profile/Profile.jpeg",
       "isOwnStory": true,
-      "story" : "/profile/food.jpg"
+      "story" : "/profile/new_desk.jpg"
     },
     {
       "id": 2,
@@ -258,6 +258,43 @@
         }
       ],
       "timestamp": "2025-02-20T11:00:00Z"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": 1,
+      "username": "food_lover",
+      "profile": "/profile/food.jpg"
+    },
+    {
+      "id": 2,
+      "username": "travel_enthusiast",
+      "profile": "/profile/traveller.jpg"
+    },
+    {
+      "id": 3,
+      "username": "sunset_chaser",
+      "profile": "/profile/sunset.jpg"
+    },
+    {
+      "id": 4,
+      "username": "desk_setup",
+      "profile": "/profile/new_desk.jpg"
+    },
+    {
+      "id": 5,
+      "username": "food_lover2",
+      "profile": "/profile/food.jpg"
+    },
+    {
+      "id": 6,
+      "username": "travel_enthusiast2",
+      "profile": "/profile/traveller.jpg"
+    },
+    {
+      "id": 7,
+      "username": "sunset_chaser2",
+      "profile": "/profile/sunset.jpg"
     }
   ]
 }

@@ -11,7 +11,7 @@ const router = createBrowserRouter([
     element : <App />
   },
   {
-    path : "/stories/:id",
+    path : "/stories/:id/:len",
     element : <Story />
   }
 ])

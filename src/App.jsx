@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Sidebar/Navbar';
 import Centerbar from './Center/centerbar';
+import Suggestion from './Footer/suggestion';
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
             <div className= "w-50">
               <Centerbar />
             </div>
-            <div className="w-30">Suggestions</div>
+            <div className="w-35 ps-2">
+              <Suggestion />
+            </div>
         </div>
     </>
   )
