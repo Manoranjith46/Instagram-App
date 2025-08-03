@@ -8,7 +8,7 @@ function App() {
     <>
         <div className="d-flex">
             <div className="w-20">
-                <Navbar />
+              <Navbar />
             </div>
             <div className= "w-50">
               <Centerbar />

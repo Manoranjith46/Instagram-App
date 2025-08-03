@@ -1,22 +1,38 @@
-import useFetch from '../useFetch';
+import useFetch from "../useFetch";
 
 function Posts() {
-  
   let Data = useFetch("http://localhost:5000/posts");
-  
-//Map through all posts
+
+  //Map through all posts
   const posts = Data.map((post) => (
-    <div key={post.id} className='m-2 px-5 py-2'>
-      <div className="d-flex align-items-center gap-1">
+    <div key={post.id} className="m-2 px-5 py-2">
+      <div className="d-flex align-items-center">
         <img className="img" src={post.user.profile_pic} alt="" />
         <p className="m-0 p-2">{post.user.username}</p>
       </div>
 
-      <img  className="img-fluid img-thumbnail my-2 mx-1" src={post.image} alt="" />
-      
+      <div className="d-flex justify-content-center">
+        {/* Check if the post is a video or an image */}
+        {post.image.endsWith(".mp4") ? (
+          <video controls autoplay preload="auto" loop className="img-fluid img-thumbnail my-2 mx-1">
+            <source src={post.image} type="video/mp4"/>
+          </video>
+        ) : (
+          <img
+            className="img-fluid img-thumbnail my-2 mx-1"
+            src={post.image}
+            alt=""
+          />
+        )}
+      </div>
+
       <div className="mx-2">
         <button className="btn btn-primary bg-transparent border-0 p-2 ">
-          <img src="/src/assets/icons/Notifications.png" width="25px" alt="heart" />
+          <img
+            src="/src/assets/icons/Notifications.png"
+            width="25px"
+            alt="heart"
+          />
         </button>
         <button className="btn btn-primary bg-transparent border-0 p-2">
           <img src="/src/assets/icons/Comment.png" width="25px" alt="heart" />
@@ -30,26 +46,28 @@ function Posts() {
         <b>{post.likes} Likes</b>
         <p>#{post.caption}</p>
         <p>View all {post.comments.length} Comments</p>
-
       </div>
     </div>
-  ))
+  ));
 
-
+  // If no data is fetched, show a loading spinner
   if (!Data || Data.length == 0) {
-    return(
+    return (
       <div className="d-flex justify-content-center m-5 p-5">
-        <h6 className="spinner-border text-primary m-5 p-3"/>
+        <h6 className="spinner-border text-primary m-5 p-3" />
       </div>
-    )
+    );
   }
-  else{
-    return(
+  // If data is fetched, return the posts
+  else {
+    return (
       <div>
         {posts}
-        <a href="https://www.flaticon.com/free-icons/send" title="send icons">Send icons created by Bingge Liu - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/send" title="send icons">
+          Send icons created by Bingge Liu - Flaticon
+        </a>
       </div>
-    ); 
+    );
   }
 }
 

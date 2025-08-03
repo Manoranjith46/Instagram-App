@@ -3,7 +3,7 @@
     {
       "id": 1,
       "username": "Your Story",
-      "profile": "/profile/Profile.jpeg",
+      "profile": "/profile/Profile.jpg",
       "isOwnStory": true,
       "story" : "/profile/new_desk.jpg"
     },
@@ -55,12 +55,12 @@
       "id": 1,
       "user": {
         "id": 101,
-        "username": "john_doe",
-        "profile_pic": "/profile/sunset.jpg"
+        "username": "praveen_9510",
+        "profile_pic": "/profile/Praveen.jpg"
       },
-      "image": "/post/sunset.jpg",
-      "caption": "Beautiful sunset 🌅 #Nature",
-      "likes": 120,
+      "image": "/post/Loki.mp4",
+      "caption": "Chitappa",
+      "likes": 230,
       "comments": [
         {
           "user": "alice_wonder",
@@ -77,7 +77,7 @@
       "id": 2,
       "user": {
         "id": 102,
-        "username": "jane_smith",
+        "username": "_logeshx",
         "profile_pic": "/profile/food.jpg"
       },
       "image": "/post/food.jpg",
@@ -95,7 +95,7 @@
       "id": 3,
       "user": {
         "id": 103,
-        "username": "travel_guru",
+        "username": "thala_sibi",
         "profile_pic": "/profile/traveller.jpg"
       },
       "image": "/post/traveller.jpg",
@@ -113,7 +113,7 @@
       "id": 4,
       "user": {
         "id": 104,
-        "username": "cat_lover",
+        "username": "sriram_s",
         "profile_pic": "/profile/new_desk.jpg"
       },
       "image": "/post/cat.jpg",
@@ -295,6 +295,130 @@
       "id": 7,
       "username": "sunset_chaser2",
       "profile": "/profile/sunset.jpg"
+    }
+  ],
+  "user_followers" : [
+    {
+      "id" : 1001,
+      "username" : "Anna_Miller",
+      "story" : "/profile/new_desk.jpg"
+    },
+    {
+      "id" : 1002,
+      "username" : "Loki",
+      "story" : "/profile/sunset.jpg"
+    },
+    {
+      "id" : 1003,
+      "username" : "mano",
+      "story" : "/profile/new_desk.jpg"
+    },
+    {
+      "id" : 1004,
+      "username" : "abi",
+      "story" : "/profile/sunset.jpg"
+    },
+    {
+      "id" : 1005,
+      "username" : "arul",
+      "story" : "/profile/new_desk.jpg"
+    },
+    {
+      "id" : 1006,
+      "username" : "hari",
+      "story" : "/profile/new_desk.jpg"
+    },
+    {
+      "id" : 1007,
+      "username" : "mukesh",
+      "story" : "/profile/sunset.jpg"
+    },
+    {
+      "id" : 1008,
+      "username" : "kishore",
+      "story" : "/profile/new_desk.jpg"
+    },
+    {
+      "id" : 1009,
+      "username" : "Anna_Miller",
+      "story" : "/profile/new_desk.jpg"
+    },
+    {
+      "id" : 1010,
+      "username" : "Loki",
+      "story" : "/profile/sunset.jpg"
+    },
+    {
+      "id" : 1011,
+      "username" : "mano",
+      "story" : "/profile/new_desk.jpg"
+    },
+    {
+      "id" : 1012,
+      "username" : "abi",
+      "story" : "/profile/sunset.jpg"
+    },
+    {
+      "id" : 1013,
+      "username" : "arul",
+      "story" : "/profile/new_desk.jpg"
+    },
+    {
+      "id" : 1014,
+      "username" : "hari",
+      "story" : "/profile/new_desk.jpg"
+    },
+    {
+      "id" : 1015,
+      "username" : "mukesh",
+      "story" : "/profile/sunset.jpg"
+    },
+    {
+      "id" : 1016,
+      "username" : "kishore",
+      "story" : "/profile/new_desk.jpg"
+    }
+  ],
+  "user_following" : [
+    {
+      "id" : 1001,
+      "username" : "Anna_Miller",
+      "story" : "/profile/new_desk.jpg"
+    },
+    {
+      "id" : 1002,
+      "username" : "Loki",
+      "story" : "/profile/sunset.jpg"
+    },
+    {
+      "id" : 1003,
+      "username" : "mano",
+      "story" : "/profile/new_desk.jpg"
+    },
+    {
+      "id" : 1004,
+      "username" : "abi",
+      "story" : "/profile/sunset.jpg"
+    },
+    {
+      "id" : 1005,
+      "username" : "arul",
+      "story" : "/profile/new_desk.jpg"
+    },
+    {
+      "id" : 1006,
+      "username" : "hari",
+      "story" : "/profile/new_desk.jpg"
+    },
+    {
+      "id" : 1007,
+      "username" : "mukesh",
+      "story" : "/profile/sunset.jpg"
+    },
+    {
+      "id" : 1008,
+      "username" : "kishore",
+      "story" : "/profile/new_desk.jpg"
     }
   ]
 }

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 
-
+// Custom hook to fetch data from a given URL
 const useFetch = (url)=>{
     const [Data,setData] = useState([]);
 

@@ -1,19 +1,24 @@
-import React from 'react'
+import { useNavigate } from "react-router-dom";
+
 
 function Navbar() {
+
+    const navigate = useNavigate();
+
   return (
     <>
+{/* Sidebar Navigation */}
         <div className="m-3" >
             <img className="mb-2" src="/public/Sidebar.png" alt="" width="100%"/>
             <div className="d-flex flex-column">
-                <div className="imgsdiv">
+                <div className="imgsdiv" onClick={() => navigate('/')}>
                     <img className="imgs" src="/src/assets/icons/Home.png" />
                     Home
                 </div>
                 <div className="imgsdiv">
                     <img className="imgs" src="/src/assets/icons/Search.png"/>
                     Search
-                </div>
+              </div>
                 <div className="imgsdiv">
                     <img className="imgs" src="/src/assets/icons/Explore.png"/>
                     Explore
@@ -34,8 +39,8 @@ function Navbar() {
                     <img className="imgs" src="/src/assets/icons/Create.png"/>
                     Create
                 </div>
-                <div className="imgsdiv">
-                    <img className="imgs" src="/src/assets/icons/Profile.jpeg"/>
+                <div className="imgsdiv" onClick={() => navigate('/profile')}>
+                    <img className="imgs rounded-circle" src="/src/assets/icons/Profile.jpg"/>
                     Profile
                 </div>
                 <div className="imgsdiv">
