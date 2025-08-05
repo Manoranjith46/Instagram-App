@@ -14,7 +14,7 @@ function Posts() {
       <div className="d-flex justify-content-center">
         {/* Check if the post is a video or an image */}
         {post.image.endsWith(".mp4") ? (
-          <video controls autoplay preload="auto" loop className="img-fluid img-thumbnail my-2 mx-1">
+          <video controls autoPlay loop className="img-fluid img-thumbnail my-2 mx-1">
             <source src={post.image} type="video/mp4"/>
           </video>
         ) : (

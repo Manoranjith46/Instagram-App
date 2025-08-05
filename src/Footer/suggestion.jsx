@@ -11,8 +11,8 @@ function Suggestion() {
   let data = Data && Data.map((sugg)=>(
     <div key={sugg.id} className="sugg d-flex align-items-center px-3 py-2">
       <img className="img" src={sugg.profile} alt="img" />
-      <p className="m-0 p-2 text-end">{sugg.username}</p>
-      <h6 className="ms-auto pt-2 text-primary" ><a className="text-decoration-none">Follow</a></h6>
+      <p className="suggestionname m-0 p-2 text-end">{sugg.username}</p>
+      <h6 className="follow-btn ms-auto pt-2 text-primary" ><a className="text-decoration-none">Follow</a></h6>
     </div>
   ))
 
@@ -25,15 +25,14 @@ function Suggestion() {
               <p className="p-0 m-0">Profile</p>
               <p className="p-0 m-0">username</p>
             </div>
-            <p className="pt-3 ms-auto px-3 text-primary" >Switch</p>
+            <p className="switch-btn pt-3 ms-auto px-3 text-primary" >Switch</p>
         </div>
         <div className="d-flex align-items-center px-3">
           <h6 className="pt-1">Suggested for you</h6>
           <p className="pt-3 ms-auto">See All</p>
         </div>
 {/* Suggested users list */}
-        {data}
-        
+        {data} 
     </>
   )
 }

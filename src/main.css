@@ -140,3 +140,20 @@
     overflow: auto;
     scrollbar-color: transparent transparent;
 }
+
+
+
+
+/* Suggestions CSS */
+.follow-btn{
+    font-size: 0.929vw;
+    font-weight: 500;
+    color: #0095f6;
+    cursor: pointer;
+}
+.switch-btn{
+    font-size: 0.929vw;
+    font-weight: 500;
+    color: #0095f6;
+    cursor: pointer;
+}

@@ -6,7 +6,7 @@ import Story from './Center/story.jsx'
 import Profile from './Profile/profile.jsx'
 
 
-const router = createBrowserRouter([
+const route = createBrowserRouter([
   {
     path : "/",
     element : <App />
@@ -22,6 +22,6 @@ const router = createBrowserRouter([
 ])
 
 createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
+  <RouterProvider router={route} />
 )
 
